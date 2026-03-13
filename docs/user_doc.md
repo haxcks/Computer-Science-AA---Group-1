@@ -4,7 +4,7 @@
 This program allows students to check in and check out of the dorm digitally and lets dorm managers monitor attendance in real time.
 
 ## How to Access
-1. Open the program (`python -m src.main`)  
+1. Open the program (`python main.py`)  
 2. Choose your role:
    - Student
    - Dorm Manager
