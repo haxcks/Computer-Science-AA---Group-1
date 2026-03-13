@@ -14,7 +14,7 @@
 - [Features](#%EF%B8%8F-features)
 - [Program Requirements](#-program-requirements)
 - [How to Run the Program](#%EF%B8%8F-how-to-run-the-program)
-- [Sample Output](#-sample-output)
+- [Sample Output](#%EF%B8%8F-sample-output)
 - [Authors](#-authors)
 
 ---
@@ -92,4 +92,25 @@ cd dorm-curfew-tracker
 ```bash
 python main.py
 ```
+## 🖥️ Sample Output
 
+```
+----- DORMITORY SYSTEM -----
+1 : Student
+2 : Manager
+3 : Exit
+Choice: 1
+Student ID: 14-2024-007
+Passkey: 1234
+Login successful
+
+----- Student Dashboard -----
+1 : Check-in
+2 : Check-out
+3 : View Student Profile
+4 : View Student Violations
+5 : Logout
+
+Choice: 5
+Logging Out...
+```
