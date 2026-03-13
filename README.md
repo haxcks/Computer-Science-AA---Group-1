@@ -11,9 +11,9 @@
 ## 📚 Table of Contents
 - [Project Description](#-project-description)
 - [Objectives](#-objectives)
-- [Features](#-features)
+- [Features](#%EF%B8%8F-features)
 - [Program Requirements](#-program-requirements)
-- [How to Run the Program](#-how-to-run-the-program)
+- [How to Run the Program](##%EF%B8%8F-how-to-run-the-program)
 - [Sample Output](#-sample-output)
 - [Authors](#-authors)
 
