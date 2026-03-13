@@ -4,7 +4,7 @@
 ![Status](https://img.shields.io/badge/Status-Active-success)
 ![Platform](https://img.shields.io/badge/Platform-Console-lightgrey)
 
-> A console-based system designed to monitor dormitory curfew compliance in **PSHS CALABARZON dormitories**.
+> A console-based system designed to monitor dormitory curfew compliance in **PSHS dormitories**.
 
 ---
 
@@ -114,3 +114,13 @@ Login successful
 Choice: 5
 Logging Out...
 ```
+
+## 👥 Authors
+| Name       | Contribution                  |
+|------------|-------------------------------|
+| Jakob Pabico  | Local API and Main Program |
+| Jhustin Alialy   | Main Program |
+| Jemdrich Galido  | Main Program |
+| Liam Gonzales    | Student Attendance Database  |
+| Ae-shin Barrete  |  Check-in/out System   |
+* *Main Program referrs to every feature that is not coded already by other members.
