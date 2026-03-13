@@ -9,13 +9,13 @@
 ---
 
 ## 📚 Table of Contents
-- [Project Description](#project-description)
-- [Objectives](#objectives)
-- [Features](#features)
-- [Program Requirements](#program-requirements)
-- [How to Run the Program](#how-to-run-the-program)
-- [Sample Output](#sample-output)
-- [Authors](#authors)
+- [Project Description](#-project-description)
+- [Objectives](#-objectives)
+- [Features](#-features)
+- [Program Requirements](#-program-requirements)
+- [How to Run the Program](#-how-to-run-the-program)
+- [Sample Output](#-sample-output)
+- [Authors](#-authors)
 
 ---
 
