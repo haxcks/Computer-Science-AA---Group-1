@@ -1,5 +1,10 @@
 # Dorm Curfew Tracker
 
+![Python](https://img.shields.io/badge/Language-Python-blue)
+![Status](https://img.shields.io/badge/Status-Active-success)
+![Platform](https://img.shields.io/badge/Platform-Console-lightgrey)
+
+
 # 📚 Table of Contents
 - [Project Description](#-project-description)
 - [Objectives](#-objectives)
