@@ -1,8 +1,12 @@
+<div align="center">
+  
 # 🏫 Dorm Curfew Tracker
 
 [![Python](https://img.shields.io/badge/Language-Python-blue)](https://www.python.org)
 ![Status](https://img.shields.io/badge/Status-Active-success)
 ![Platform](https://img.shields.io/badge/Platform-Console-lightgrey)
+
+</div>
 
 > A console-based system designed to monitor dormitory curfew compliance in **PSHS dormitories**.
 
