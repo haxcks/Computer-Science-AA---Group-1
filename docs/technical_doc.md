@@ -1,7 +1,7 @@
 # 💻 Dorm Curfew Tracker - Technical Documentation
 
 ## Project Overview
-The Dorm Curfew Tracker is a console-based program that monitors student check-ins and check-outs in dormitories. It is designed for PSHS dorms and helps dorm managers track attendance in real time.
+The Dorm Curfew Tracker is a console-based program that monitors student check-ins and check-outs in dormitories. It is designed for dorms and helps dorm managers track attendance in real time.
 
 ## Project Structure
 ```
@@ -9,8 +9,8 @@ dorm-curfew-tracker/
 │
 ├── README.md
 ├── src/
-│ ├── main.py # Program entry point and UI
-│ └── database.py # Handles student attendance data
+│ ├── main.py
+│ └── database.py
 └── docs/
 └── technical_doc.md
 ```
@@ -33,7 +33,7 @@ dorm-curfew-tracker/
 3. Student check-ins and check-outs are stored in the database.
 4. Dorm managers can view real-time attendance and export records.
 
-## Notes / Limitations
-- The dashboard and automated time API features are **not fully implemented yet**.
+## Limitations
+- The dashboard, JSON exporting, and time API features are **not fully implemented yet**.
 - Only console-based; no GUI or web interface yet.
-- Current implementation does not synchronize with fingerprint scanners.
+- Current implementation does not work well with fingerprint scanners.
