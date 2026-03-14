@@ -82,15 +82,15 @@ Dorm managers can monitor dorm attendance and reduce manual tracking.
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/your-username/dorm-curfew-tracker.git
+git clone https://github.com/haxcks/Computer-Science-AA---Group-1.git
 ```
 ### 2️⃣ Open the project folder
 ```bash
-cd dorm-curfew-tracker
+cd Computer-Science-AA---Group-1
 ```
 ### 3️⃣ Run the program
 ```bash
-python main.py
+python -m src.main
 ```
 ## 🖥️ Sample Output
 
