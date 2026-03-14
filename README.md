@@ -2,9 +2,9 @@
   
 # 🏫 Dorm Curfew Tracker
 
-[![Python](https://img.shields.io/badge/Language-Python-blue)](https://www.python.org)
-![Status](https://img.shields.io/badge/Status-Active-success)
-![Platform](https://img.shields.io/badge/Platform-Console-lightgrey)
+[![Python](https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge&logo=python)](https://www.python.org)
+![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
+![Platform](https://img.shields.io/badge/Platform-Console-lightgrey?style=for-the-badge)
 
 </div>
 
