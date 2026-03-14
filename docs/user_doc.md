@@ -19,7 +19,6 @@ This program allows students to check in and check out of the dorm digitally and
 2. Access the dashboard to see student attendance in real time.
 3. Export records if needed.
 
-## Troubleshooting / Notes
+## Troubleshooting
 - Make sure your Python environment is set up correctly.
 - Only students and dorm managers with accounts can log in.
-- If something doesn’t work, contact your dorm staff.
