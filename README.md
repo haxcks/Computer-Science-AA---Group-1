@@ -5,6 +5,7 @@
 [![Python](https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge&logo=python)](https://www.python.org)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/Platform-Console-lightgrey?style=for-the-badge)
+[![License](https://img.shields.io/github/license/haxcks/Computer-Science-AA---Group-1?style=for-the-badge)](https://github.com/haxcks/Computer-Science-AA---Group-1/blob/main/LICENSE)
 
 </div>
 
