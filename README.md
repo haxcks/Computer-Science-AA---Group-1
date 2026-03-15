@@ -26,7 +26,7 @@
 
 ## 📖 Project Description
 
-This project is a **dormitory curfew monitoring system** designed for **PSHS CALABARZON dormitories**.
+This project is a **dormitory curfew monitoring system** designed for **PSHS dormitories**.
 
 The system allows students to:
 
