@@ -1,18 +1,5 @@
-<div align = "center">
-
-# 🚧 UNDER CONSTURCTION!
-
-Please ***REFER TO*** 
-[![Source Code](https://img.shields.io/badge/Source-Code-blue?style=for-the-badge&logo=zsh)](https://github.com/haxcks/Computer-Science-AA---Group-1/tree/main/src)
-
-for the sample outputs, etc... (*huhu*)
-
-</div>
-
----
-
 <div align="center">
-  
+
 # 🏫 Dorm Curfew Tracker
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge&logo=python)](https://www.python.org)
@@ -20,106 +7,112 @@ for the sample outputs, etc... (*huhu*)
 [![Platform](https://img.shields.io/badge/Platform-Terminal-lightgrey?style=for-the-badge&logo=zsh)](#-dorm-curfew-tracker)
 [![License](https://img.shields.io/github/license/haxcks/Computer-Science-AA---Group-1?style=for-the-badge)](https://github.com/haxcks/Computer-Science-AA---Group-1/blob/main/LICENSE)
 
-</div>
+> A Python-based dormitory monitoring and notification system designed to automate student check-ins, enforce curfew policies, and improve accountability.
 
-> A console-based system designed to monitor dormitory curfew compliance in **PSHS dormitories**.
+</div>
 
 ---
 
 ## 📚 Table of Contents
-- [Project Description](#-project-description)
+- [Overview](#-overview)
 - [Objectives](#-objectives)
-- [Features](#%EF%B8%8F-features)
-- [Program Requirements](#-program-requirements)
-- [How to Run the Program](#%EF%B8%8F-how-to-run-the-program)
+- [Features](#-features)
+- [Tech Stack](#%EF%B8%8F-tech-stack)
+- [Project Structure](#-project-structure)
 - [Sample Output](#%EF%B8%8F-sample-output)
+- [Installation & Usage](#%EF%B8%8F-installation--usage)
+- [System Architecture](#-system-architecture)
 - [Authors](#-authors)
 
 ---
 
-## 📖 Project Description
+## 📖 Overview
 
-This project is a **dormitory curfew monitoring system** designed for **PSHS dormitories**.
-
-The system allows students to:
-
-- ✔ Check in / check out digitally  
-- ✔ Record exact attendance time  
-- ✔ Determine whether a student is **on time or late**
-
-Dorm managers can monitor dorm attendance and reduce manual tracking.
+The **Dorm Curfew Tracker** replaces traditional dorm logbooks with a **real-time automated system**. It records student activity, detects curfew violations, and minimizes human error while improving communication between dorm managers, students, and guardians.
 
 ---
 
 ## 🎯 Objectives
 
-| Objective | Description |
-|-----------|-------------|
-| 1 | Create a digital system for recording dorm curfew attendance |
-| 2 | Allow students to easily check in and check out |
-| 3 | Automatically determine whether a student is late or on time |
+* Track student check-in/check-out activity
+* Implement secure role-based authentication
+* Detect and log curfew violations
+* Provide a management dashboard
 
 ---
 
-## ⚙️ Features
+## ✨ Features
 
-### Core Features
+### 🔐 Core Features
 
-| Feature | Status |
-|--------|--------|
-| Student login using ID and passkey | ✅ Implemented |
-| Automatic time logging using local time API | ⏳ Not yet implemented |
-| Real-time dashboard for dorm managers | ⏳ Not yet implemented |
-| Late / On-time detection | ✅ Implemented |
-| Student attendance database | 🚧 Work in Progress |
-
----
-
-### Additional Features
-
-| Feature | Status |
-|--------|--------|
-| Export attendance records for reports | ⏳ Not yet implemented |
-| Account management for dorm managers | ⏳ Not yet implemented |
-| Real-time updates to dorm staff | ⏳ Not yet implemented |
+* Role-based login (**Student / Manager**)
+* Secure authentication using **SHA-256 hashing**
+* Real-time check-in/check-out tracking
+* Automatic curfew violation detection
+* JSON-based persistent storage
+* Manager dashboard (CRUD operations)
+* Student interface (profile, history, violations)
 
 ---
 
-## 💻 Program Requirements
+### ⚡ Additional Features
 
-### Programming Language
-- `Python 3.9+`
+Click to expand
 
-### Tools / Libraries
-- `datetime`
+* 🌍 Timezone-aware tracking (`zoneinfo`)
+* 🧱 Atomic file handling (`os`, `pathlib`)
+* 📜 PEP 8 compliant structure
 
 ---
 
-## ▶️ How to Run the Program
+## 🛠️ Tech Stack
 
-### 1️⃣ Clone the repository
+| Component      | Technology           |
+| -------------- | -------------------- |
+| Language       | Python 3.9+          |
+| Database       | JSON (Local Storage) |
+| Authentication | hashlib (SHA-256)    |
+| Time Handling  | datetime + zoneinfo  |
+| File Handling  | os, pathlib          |
 
-```bash
-git clone https://github.com/haxcks/Computer-Science-AA---Group-1.git
+---
+
+## 📂 Project Structure
+
 ```
-### 2️⃣ Open the project folder
-```bash
-cd Computer-Science-AA---Group-1
+DormCurfewTracker/
+│── main.py
+│── manager.py
+│── student.py
+│
+├── API/
+│   ├── TimeAPI.py
+│   ├── time.timeapi
+│
+├── Helpers/
+│   ├── db.py 
+│   ├── HashHelper.py
+│
+├── DataBase/
+│   ├── students.json
+│   ├── managers.json
+│   ├── history.json
+│   ├── violations.json
+│
 ```
-### 3️⃣ Run the program
-```bash
-python -m src.main
-```
+
+---
+
 ## 🖥️ Sample Output
 
 ```
------ DORMITORY SYSTEM -----
-1 : Student
-2 : Manager
-3 : Exit
-Choice: 1
-Student ID: 14-2024-007
-Passkey: 1234
+----- INTERFACE -----
+        [1.] Student
+        [2.] Manager
+        [3.] Exit
+1
+Student ID: 14-2024-01
+Passkey: 12345
 Login successful
 
 ----- Student Dashboard -----
@@ -129,16 +122,64 @@ Login successful
 4 : View Student Violations
 5 : Logout
 
-Choice: 5
-Logging Out...
+Choice: 3 
+
+---- Profile ----
+Name: Jhustin Jane C. Alialy
+Room: 210
+Status: IN
 ```
 
+---
+
+## ⚙️ Installation & Usage
+
+```bash
+# Clone repository
+git clone https://github.com/haxcks/Computer-Science-AA---Group-1.git
+
+# Navigate into project
+cd Computer-Science-AA---Group-1/src
+
+# Run program
+python main.py
+```
+
+---
+
+## 🧠 System Architecture
+
+### Modules
+
+* **Time API**
+
+  * Handles timezone-aware time tracking
+
+* **Main**
+
+  * Entry point with role selection
+
+* **Manager System**
+
+  * Admin controls (add/remove students/managers, view data)
+
+* **Student System**
+
+  * Check-in/out and profile management
+
+* **Database**
+
+  * JSON-based persistent storage
+
+---
+
 ## 👥 Authors
-| Name       | Contribution                  |
-|------------|-------------------------------|
-| Jakob Pabico  | Local API and Main Program |
-| Jhustin Alialy   | Main Program |
-| Jemdrich Galido  | Main Program |
-| Liam Gonzales    | Student Attendance Database  |
-| Ae-shin Barrete  |  Check-in/out System   |
-* *Main Program referrs to every feature that is not coded already by other members.
+
+* **Jakob Pabico**
+* **Jhustin Alialy**
+* **Jemdrich Galido**
+* **Ae-shin Barrete**
+* **Liam Gonzales**
+
+---
+
