@@ -1,3 +1,16 @@
+<div align = "center">
+
+# 🚧 UNDER CONSTURCTION!
+
+Please ***REFER TO*** 
+[![Source Code](https://img.shields.io/badge/Source-Code-blue?style=for-the-badge&logo=zsh)](https://github.com/haxcks/Computer-Science-AA---Group-1/tree/main/src)
+
+for the sample outputs, etc... (*huhu*)
+
+</div>
+
+---
+
 <div align="center">
   
 # 🏫 Dorm Curfew Tracker
