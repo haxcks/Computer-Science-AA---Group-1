@@ -1,0 +1,18 @@
+[
+    {
+        "student_id": "14-2024-01",
+        "type": "Late Check-in",
+        "timestamp": "2026-04-19T20:17:33.247367+08:00",
+        "formatted": "2026-04-19 20:17:33",
+        "timezone": "Asia/Manila",
+        "note": "Created by SYSTEM"
+    },
+    {
+        "student_id": "14-2024-01",
+        "type": "Late Check-in",
+        "timestamp": "2026-04-19T20:20:27.219526+08:00",
+        "formatted": "2026-04-19 20:20:27",
+        "timezone": "Asia/Manila",
+        "note": "Created by SYSTEM"
+    }
+]

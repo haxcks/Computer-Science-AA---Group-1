@@ -1,0 +1,33 @@
+[
+    {
+        "student_id": "14-2024-01",
+        "status": "IN",
+        "violation": true,
+        "timestamp": "2026-04-19T20:17:33.249012+08:00",
+        "formatted": "2026-04-19 20:17:33",
+        "timezone": "Asia/Manila"
+    },
+    {
+        "student_id": "14-2024-01",
+        "status": "OUT",
+        "violation": {
+            "student_id": "14-2024-01",
+            "type": "Late Check-in",
+            "timestamp": "2026-04-19T20:17:33.247367+08:00",
+            "formatted": "2026-04-19 20:17:33",
+            "timezone": "Asia/Manila",
+            "note": "Created by SYSTEM"
+        },
+        "timestamp": "2026-04-19T20:20:26.606089+08:00",
+        "formatted": "2026-04-19 20:20:26",
+        "timezone": "Asia/Manila"
+    },
+    {
+        "student_id": "14-2024-01",
+        "status": "IN",
+        "violation": true,
+        "timestamp": "2026-04-19T20:20:27.220113+08:00",
+        "formatted": "2026-04-19 20:20:27",
+        "timezone": "Asia/Manila"
+    }
+]
