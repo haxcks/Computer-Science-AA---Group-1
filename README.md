@@ -14,6 +14,7 @@
 ---
 
 ## 📚 Table of Contents
+- [Final Paper](#-final-paper)
 - [Overview](#-overview)
 - [Objectives](#-objectives)
 - [Features](#-features)
