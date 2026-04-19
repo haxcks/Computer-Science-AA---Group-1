@@ -26,6 +26,10 @@
 
 ---
 
+## 📝 Final Paper 
+- [Final Paper](https://github.com/haxcks/Computer-Science-AA---Group-1/blob/main/CSAA_FinalPaper.pdf)
+---
+
 ## 📖 Overview
 
 The **Dorm Curfew Tracker** replaces traditional dorm logbooks with a **real-time automated system**. It records student activity, detects curfew violations, and minimizes human error while improving communication between dorm managers, students, and guardians.
