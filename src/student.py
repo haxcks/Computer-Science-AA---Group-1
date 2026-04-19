@@ -40,21 +40,18 @@ def log_violation(student_id, vtype, note=""):
     save_json(VIOLATIONS, violations)
     
 def main(student_id):
-    db_students = load_json(STUDENTS)
-    db_log = load_json(HISTORY)
-    db_violations = load_json(VIOLATIONS)
-
     violation = False
+
     now = getTime()
     
     curfew = time(18, 0)
-
-    student = db_students[student_id]
 
     while True:    
         db_students = load_json(STUDENTS)
         db_log = load_json(HISTORY)
         db_violations = load_json(VIOLATIONS)
+        
+        student = db_students[student_id]
         
         print("""
 ----- Student Dashboard -----

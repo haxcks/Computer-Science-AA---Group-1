@@ -29,5 +29,77 @@
         "timestamp": "2026-04-19T20:20:27.220113+08:00",
         "formatted": "2026-04-19 20:20:27",
         "timezone": "Asia/Manila"
+    },
+    {
+        "student_id": "14-2024-01",
+        "status": "OUT",
+        "violation": false,
+        "timestamp": "2026-04-19T20:45:31.195272+08:00",
+        "formatted": "2026-04-19 20:45:31",
+        "timezone": "Asia/Manila"
+    },
+    {
+        "student_id": "1",
+        "status": "IN",
+        "violation": false,
+        "timestamp": "2026-04-20T06:36:22.145112+08:00",
+        "formatted": "2026-04-20 06:36:22",
+        "timezone": "Asia/Manila"
+    },
+    {
+        "student_id": "1",
+        "status": "IN",
+        "violation": false,
+        "timestamp": "2026-04-20T06:39:10.895787+08:00",
+        "formatted": "2026-04-20 06:39:10",
+        "timezone": "Asia/Manila"
+    },
+    {
+        "student_id": "1",
+        "status": "OUT",
+        "violation": false,
+        "timestamp": "2026-04-20T06:39:17.743414+08:00",
+        "formatted": "2026-04-20 06:39:17",
+        "timezone": "Asia/Manila"
+    },
+    {
+        "student_id": "1",
+        "status": "IN",
+        "violation": false,
+        "timestamp": "2026-04-20T06:39:18.207022+08:00",
+        "formatted": "2026-04-20 06:39:18",
+        "timezone": "Asia/Manila"
+    },
+    {
+        "student_id": "1",
+        "status": "IN",
+        "violation": false,
+        "timestamp": "2026-04-20T06:39:51.663136+08:00",
+        "formatted": "2026-04-20 06:39:51",
+        "timezone": "Asia/Manila"
+    },
+    {
+        "student_id": "1",
+        "status": "OUT",
+        "violation": false,
+        "timestamp": "2026-04-20T06:45:40.759780+08:00",
+        "formatted": "2026-04-20 06:45:40",
+        "timezone": "Asia/Manila"
+    },
+    {
+        "student_id": "1",
+        "status": "IN",
+        "violation": false,
+        "timestamp": "2026-04-20T06:45:49.728414+08:00",
+        "formatted": "2026-04-20 06:45:49",
+        "timezone": "Asia/Manila"
+    },
+    {
+        "student_id": "1",
+        "status": "OUT",
+        "violation": false,
+        "timestamp": "2026-04-20T06:50:51.472267+08:00",
+        "formatted": "2026-04-20 06:50:51",
+        "timezone": "Asia/Manila"
     }
 ]

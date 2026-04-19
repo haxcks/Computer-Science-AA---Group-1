@@ -165,12 +165,10 @@ def man_menu(manager_id):
                             print("----- Student Profiles -----")
 
                             for student_id in db_students:
-                                student = db_students[student_id]
-
                                 print("ID:", student_id)
-                                print("Name:", student["name"])
-                                print("Room:", student["room"])
-                                print("Status:", student["status"])
+                                print("Name:", db_students[student_id]["name"])
+                                print("Room:", db_students[student_id]["room"])
+                                print("Status:", db_students[student_id]["status"])
                                 print("-------------------")
                         case 4:
                             print("Exiting...")

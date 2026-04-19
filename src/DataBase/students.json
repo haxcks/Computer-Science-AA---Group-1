@@ -4,5 +4,17 @@
         "pin_hash": "5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5",
         "room": "210",
         "status": "IN"
+    },
+    "14-2024-78": {
+        "name": "Lily Eleni R. Soliven",
+        "pin_hash": "9af15b336e6a9619928537df30b2e6a2376569fcf9d7e773eccede65606529a0",
+        "room": "413",
+        "status": "OUT"
+    },
+    "1": {
+        "name": "1",
+        "pin_hash": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+        "room": "1",
+        "status": "OUT"
     }
 }
